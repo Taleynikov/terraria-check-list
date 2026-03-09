@@ -16,7 +16,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npx ng build --configuration production --base-href /repo-name/
+          npx ng build --configuration production --base-href /terraria-check-list/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
