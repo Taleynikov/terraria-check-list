@@ -1,9 +1,9 @@
 export interface TWData {
-    name: string;
-    img: string;
-    category: string;
+    NAME: string;
+    IMG: string;
+    CATEGORY: string;
 }
 
-export type ListTDataItem = Omit<TWData, 'category'>;
+export type ListTDataItem = Omit<TWData, 'CATEGORY'>;
 
 export type ListTData = Record<string, Array<ListTDataItem>>;

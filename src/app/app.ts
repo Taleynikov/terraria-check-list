@@ -3,11 +3,12 @@ import { ListTData } from './interface';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { TuiAvatar, TuiBlock, TuiCheckbox } from '@taiga-ui/kit';
 import { DATA } from './data';
+import { NgClass } from '@angular/common';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.html',
-    imports: [ReactiveFormsModule, TuiBlock, TuiAvatar, TuiCheckbox],
+    imports: [ReactiveFormsModule, TuiBlock, TuiAvatar, TuiCheckbox, NgClass],
     styleUrl: './app.scss'
 })
 export class App implements OnInit {
@@ -19,7 +20,7 @@ export class App implements OnInit {
         this.data.reduce((prev, curr) => {
             return {
                 ...prev,
-                [curr.name]: new FormControl(this.getFromMemory(curr.name), { nonNullable: true })
+                [curr.NAME]: new FormControl(this.getFromMemory(curr.NAME), { nonNullable: true })
             };
         }, {})
     );
@@ -36,16 +37,18 @@ export class App implements OnInit {
 
     protected getList(): ListTData {
         return this.data.reduce((prev, curr): ListTData => {
-            const category = curr.category;
+            const category = curr.CATEGORY;
 
             if (!prev[category]) {
                 prev[category] = [];
             }
 
             prev[category].push({
-                name: curr.name,
-                img: curr.img
+                NAME: curr.NAME,
+                IMG: curr.IMG
             });
+
+            prev[category].sort((a, b) => a.NAME.localeCompare(b.NAME));
 
             return prev;
         }, {});
@@ -57,11 +60,11 @@ export class App implements OnInit {
 
     // ########################################
 
-    private setToMemory(data: Record<string, boolean>): void {
+    protected setToMemory(data: Record<string, boolean>): void {
         localStorage.setItem('memory', JSON.stringify(data));
     }
 
-    private getFromMemory(name: string): boolean {
+    protected getFromMemory(name: string): boolean {
         const json = localStorage.getItem('memory');
 
         if (json) {

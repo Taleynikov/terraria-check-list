@@ -6,12 +6,14 @@
         <h2>{{ category }}</h2>
 
         <div class="flex flex-wrap gap-2 mt-2">
-            @let list = getList()[category]; @for (item of list; track item.name) {
-            <label tuiBlock>
-                <tui-avatar [src]="item.img" />
-                {{ item.name }}
+            @let list = getList()[category]; @for (item of list; track item.NAME) {
+            <label
+                tuiBlock
+                [ngClass]="{ 'checked': getFromMemory(item.NAME) }">
+                <tui-avatar [src]="item.IMG" />
+                {{ item.NAME }}
                 <input
-                    [formControlName]="item.name"
+                    [formControlName]="item.NAME"
                     tuiCheckbox
                     type="checkbox" />
             </label>
