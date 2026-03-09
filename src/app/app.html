@@ -5,18 +5,20 @@
     <div class="">
         <h2>{{ category }}</h2>
 
-        <div class="flex flex-wrap gap-2 mt-2">
+        <div class="flex flex-wrap mt-2">
             @let list = getList()[category]; @for (item of list; track item.NAME) {
-            <label
-                tuiBlock
-                [ngClass]="{ 'checked': getFromMemory(item.NAME) }">
-                <tui-avatar [src]="item.IMG" />
-                {{ item.NAME }}
-                <input
-                    [formControlName]="item.NAME"
-                    tuiCheckbox
-                    type="checkbox" />
-            </label>
+            <div class="card p-1">
+                <label
+                    tuiBlock
+                    [ngClass]="{ 'checked': getFromMemory(item.NAME) }">
+                    <tui-avatar [src]="item.IMG" />
+                    {{ item.NAME }}
+                    <input
+                        [formControlName]="item.NAME"
+                        tuiCheckbox
+                        type="checkbox" />
+                </label>
+            </div>
             }
         </div>
     </div>

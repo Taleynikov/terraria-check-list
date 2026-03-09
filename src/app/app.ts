@@ -48,8 +48,6 @@ export class App implements OnInit {
                 IMG: curr.IMG
             });
 
-            prev[category].sort((a, b) => a.NAME.localeCompare(b.NAME));
-
             return prev;
         }, {});
     }
