@@ -455,5 +455,475 @@ export const DATA: TWData[] = [
         NAME: 'Трюфельный червяк',
         IMG: 'https://terraria.wiki.gg/images/Truffle_Worm.png?d64925',
         CATEGORY: 'Насекомые'
+    },
+    {
+        NAME: 'Франкенштейн',
+        IMG: 'https://terraria.wiki.gg/images/Bride_of_Frankenstein_set_female.png?b2b689',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Крипер',
+        IMG: 'https://terraria.wiki.gg/images/Creeper_set.png?8a5508',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Черепашка',
+        IMG: 'https://terraria.wiki.gg/images/Karate_Tortoise_set.png?b6e1ab',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Пикси',
+        IMG: 'https://terraria.wiki.gg/images/Pixie_set_female.png?e8c13f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Костюм жнеца',
+        IMG: 'https://terraria.wiki.gg/images/Reaper_set_female.png?ac4087',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Продавец красок',
+        IMG: 'https://terraria.wiki.gg/images/Dye_Trader%27s_set_female.png?13fda0',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Лара Крофт',
+        IMG: 'https://terraria.wiki.gg/images/Treasure_Hunter_set_female.png?9eb0bb',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Ведьма',
+        IMG: 'https://terraria.wiki.gg/images/Witch_set_female.png?201ed7',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Кот',
+        IMG: 'https://terraria.wiki.gg/images/Cat_set_female.png?73c45a',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Киборг',
+        IMG: 'https://terraria.wiki.gg/images/Cyborg_set_female.png?68fb67',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Лиса',
+        IMG: 'https://terraria.wiki.gg/images/Fox_set_female.png?dbe3aa',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Лепрекон',
+        IMG: 'https://terraria.wiki.gg/images/Leprechaun_set_female.png?a0149e',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Принцесса',
+        IMG: 'https://terraria.wiki.gg/images/Princess_set_female.png?3258b6',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Робот',
+        IMG: 'https://terraria.wiki.gg/images/Robot_set.png?5df101',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Единорог',
+        IMG: 'https://terraria.wiki.gg/images/Unicorn_set_female.png?8795b0',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Волк',
+        IMG: 'https://terraria.wiki.gg/images/Wolf_set_female.png?353982',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Портной',
+        IMG: 'https://terraria.wiki.gg/images/Clothier%27s_set_female.png?378784',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Дриада',
+        IMG: 'https://terraria.wiki.gg/images/Dryad_set_female.png?1c1411',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Призрак',
+        IMG: 'https://terraria.wiki.gg/images/Ghost_set_female.png?6d00f1',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Медсестра',
+        IMG: 'https://terraria.wiki.gg/images/Nurse_set_female.png?2d0cb0',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Тыква',
+        IMG: 'https://terraria.wiki.gg/images/Pumpkin_set_female.png?f1b783',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Чужой',
+        IMG: 'https://terraria.wiki.gg/images/Space_Creature_set.png?203b65',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Вампир',
+        IMG: 'https://terraria.wiki.gg/images/Vampire_set_female.png?4e2c3e',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Мисис Клаус',
+        IMG: 'https://terraria.wiki.gg/images/Mrs._Claus_set_female.png?b0d2e1',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Санта',
+        IMG: 'https://terraria.wiki.gg/images/Santa_set_female.png?dd034d',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Парка',
+        IMG: 'https://terraria.wiki.gg/images/Parka_set_female.png?f5d79f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Ёлка',
+        IMG: 'https://terraria.wiki.gg/images/Tree_set.png?4fe625',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Древняя броня',
+        IMG: 'https://terraria.wiki.gg/images/Ancient_set_female.png?cbf517',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Одежда археолога',
+        IMG: 'https://terraria.wiki.gg/images/Archaeologist%27s_set_female.png?f44b7f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Пчелиный костюм',
+        IMG: 'https://terraria.wiki.gg/images/Bee_set_female.png?b9e79e',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Чёрный костюм выпускника',
+        IMG: 'https://terraria.wiki.gg/images/Black_Graduation_set_female.png?b3ac02',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Синий костюм выпускника',
+        IMG: 'https://terraria.wiki.gg/images/Blue_Graduation_set_female.png?ae9d11',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Моряк',
+        IMG: 'https://terraria.wiki.gg/images/Buccaneer_set_female.png?f1499d',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Кролик',
+        IMG: 'https://terraria.wiki.gg/images/Bunny_set_female.png?6f7b98',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Мясник',
+        IMG: 'https://terraria.wiki.gg/images/Butcher%27s_set_female.png?f5b848',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Козерог',
+        IMG: 'https://terraria.wiki.gg/images/Capricorn_set_Hooves_female.png?f92b9f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Повар',
+        IMG: 'https://terraria.wiki.gg/images/Chef_set_female.png?49db88',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Клоун',
+        IMG: 'https://terraria.wiki.gg/images/Clown_set_female.png?718f8a',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Костюм загородного клуба',
+        IMG: 'https://terraria.wiki.gg/images/Country_Club_set_female_%28cap%29.png?7a7e81',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Ковбой',
+        IMG: 'https://terraria.wiki.gg/images/Cowboy_set_female.png?2a59bb',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Собака',
+        IMG: 'https://terraria.wiki.gg/images/Dog_set_female.png?cf9b27',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Доктор муха',
+        IMG: 'https://terraria.wiki.gg/images/Dr._Man_Fly_set_female.png?6314bb',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Эльф',
+        IMG: 'https://terraria.wiki.gg/images/Elf_set_female.png?66a8b5',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Цветочный хранитель',
+        IMG: 'https://terraria.wiki.gg/images/Floret_Protector_set.png?34142f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Смокинг падшего',
+        IMG: 'https://terraria.wiki.gg/images/Fallen_Tuxedo_set_female.png?c8bc5e',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Привычная одежда',
+        IMG: 'https://terraria.wiki.gg/images/Familiar_set_female.png?174588',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Костюм поджигательницы',
+        IMG: 'https://terraria.wiki.gg/images/Firestarter%27s_set_female.png?e6212c',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Рыба',
+        IMG: 'https://terraria.wiki.gg/images/Fish_Costume_set_female.png?97356b',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Лиса',
+        IMG: 'https://terraria.wiki.gg/images/Fox_set_%28Zoologist%29_female.png?89bae1',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Похоронная',
+        IMG: 'https://terraria.wiki.gg/images/Funeral_set_female.png?d8c45b',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Джентельмен',
+        IMG: 'https://terraria.wiki.gg/images/Gentleman%27s_set_female.png?5cceee',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Могильщик',
+        IMG: 'https://terraria.wiki.gg/images/Gravedigger_set_female.png?4bc1ed',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Линк',
+        IMG: 'https://terraria.wiki.gg/images/Hero%27s_set_female.png?ff4733',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Ламия',
+        IMG: 'https://terraria.wiki.gg/images/Lamia_set_female.png?246ca7',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Ящерица',
+        IMG: 'https://terraria.wiki.gg/images/Lizard_set_female.png?f87e20',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Лунный культист',
+        IMG: 'https://terraria.wiki.gg/images/Lunar_Cultist_set.png?382b77',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Горничная',
+        IMG: 'https://terraria.wiki.gg/images/Maid_set_female.png?52b78f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Бордовый костюм выпускника',
+        IMG: 'https://terraria.wiki.gg/images/Maroon_Graduation_set_female.png?f2d0c6',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Марсианин',
+        IMG: 'https://terraria.wiki.gg/images/Martian_Costume_set_female.png?ce7288',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Марсианская униформа',
+        IMG: 'https://terraria.wiki.gg/images/Martian_Uniform_set_female.png?599308',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Мастер игры',
+        IMG: 'https://terraria.wiki.gg/images/Master_Gamer%27s_set_female.png?6e8e5c',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Русалка',
+        IMG: 'https://terraria.wiki.gg/images/Mermaid_set_female.png?52223c',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Мумия',
+        IMG: 'https://terraria.wiki.gg/images/Mummy_set_female.png?242d1f',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Гриб',
+        IMG: 'https://terraria.wiki.gg/images/Mushroom_set_female.png?695a3c',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Ниндзя',
+        IMG: 'https://terraria.wiki.gg/images/Ninja_armor_female.png?798f68',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Пингвин',
+        IMG: 'https://terraria.wiki.gg/images/Pedguin%27s_set_female.png?495b00',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Фараон',
+        IMG: 'https://terraria.wiki.gg/images/Pharaoh%27s_set_female.png?7dcdf8',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Розовый костюм горничной',
+        IMG: 'https://terraria.wiki.gg/images/Pink_Maid_set_female.png?d8b815',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Пират',
+        IMG: 'https://terraria.wiki.gg/images/Pirate_set_female.png?8e4c82',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Переносчик заразы',
+        IMG: 'https://terraria.wiki.gg/images/Plaguebringer%27s_set_female.gif?d9b356',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Марио',
+        IMG: 'https://terraria.wiki.gg/images/Plumber%27s_set_female.png?c2b85a',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Прелестный розовый',
+        IMG: 'https://terraria.wiki.gg/images/Pretty_Pink_set_female.png?a516ab',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Принц',
+        IMG: 'https://terraria.wiki.gg/images/Prince_set_female.png?10e080',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Принцесса',
+        IMG: 'https://terraria.wiki.gg/images/Princess_set_%28Clothier%29_female.png?6c9765',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Дождевик',
+        IMG: 'https://terraria.wiki.gg/images/Rain_armor_female.png?fa034e',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Raynbro',
+        IMG: 'https://terraria.wiki.gg/images/Raynbro%27s_set_female.png?70cc6e',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Королевская',
+        IMG: 'https://terraria.wiki.gg/images/Royal_set_female.png?5c2288',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Руническая одежда',
+        IMG: 'https://terraria.wiki.gg/images/Rune_set_female.png?e19633',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Юнга',
+        IMG: 'https://terraria.wiki.gg/images/Sailor_set_female.png?3005a1',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Пугало',
+        IMG: 'https://terraria.wiki.gg/images/Scarecrow_set_female.png?6d59a1',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Подсолнух',
+        IMG: 'https://terraria.wiki.gg/images/Silly_Sunflower_set_female.png?cbab87',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Солнечный культист',
+        IMG: 'https://terraria.wiki.gg/images/Solar_Cultist_set.png?39fcd6',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Звездная принцесса',
+        IMG: 'https://terraria.wiki.gg/images/Star_Princess_set_female.png?3ed335',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Стимпанк',
+        IMG: 'https://terraria.wiki.gg/images/Steampunk_set_female.png?74b46a',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Супергерой',
+        IMG: 'https://terraria.wiki.gg/images/Superhero_set_female.png?e78c83',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Налогосборщик',
+        IMG: 'https://terraria.wiki.gg/images/Tax_Collector%27s_set_female.png?6e08cd',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Доктор Кто',
+        IMG: 'https://terraria.wiki.gg/images/The_Doctor%27s_set_female.png?75e261',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Путешественник вне времени',
+        IMG: 'https://terraria.wiki.gg/images/Timeless_Traveler%27s_set.gif?4a3aa6',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Смокинг',
+        IMG: 'https://terraria.wiki.gg/images/Tuxedo_set_female.png?854732',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Невеста',
+        IMG: 'https://terraria.wiki.gg/images/Wedding_set_female.png?68bb0c',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Телевизор',
+        IMG: 'https://terraria.wiki.gg/images/TV_Head_set_female.gif?836537',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Викторианский',
+        IMG: 'https://terraria.wiki.gg/images/Victorian_Goth_set_female.png?253a15',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Бродяга',
+        IMG: 'https://terraria.wiki.gg/images/Wandering_Ronin_set_female.png?c06412',
+        CATEGORY: 'Костюм'
+    },
+    {
+        NAME: 'Белый смокинг',
+        IMG: 'https://terraria.wiki.gg/images/White_Tuxedo_set_female.png?a394b1',
+        CATEGORY: 'Костюм'
     }
 ];

@@ -16,3 +16,20 @@ html {
     max-width: 980px;
     margin: 0 auto;
 }
+
+.checked {
+    opacity: 0.5;
+    background: var(--tui-chart-categorical-09);
+}
+
+.card {
+    width: calc(100% / 3);
+}
+
+tui-avatar {
+    border-radius: 0 !important;
+
+    img {
+        object-fit: contain !important;
+    }
+}

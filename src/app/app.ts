@@ -68,7 +68,7 @@ export class App implements OnInit {
         if (json) {
             const data = JSON.parse(json) as Record<string, boolean>;
 
-            return data[name];
+            return !!data[name];
         }
 
         return false;
